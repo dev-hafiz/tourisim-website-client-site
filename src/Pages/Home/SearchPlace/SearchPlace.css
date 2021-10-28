@@ -1,0 +1,25 @@
+.search-area {
+     background: #fff;
+     width: 86%;
+     margin: 0 auto;
+     position: relative;
+     top: -78px;
+     padding: 54px 50px;
+     border: 1px solid #DFDFC9;
+ }
+
+.search-area input{
+     width: 80%;
+     outline: none;
+     border: 1px solid #eee;
+     padding: 10px 20px;
+}
+.search-btn{
+     background: #E2CA86;
+     outline: none;
+     padding: 11px  20px;
+     border:none;
+     color: white;
+     margin-left: 10px;
+     font-weight: 600;
+}
