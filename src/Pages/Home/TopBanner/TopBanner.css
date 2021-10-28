@@ -1,0 +1,26 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=PT+Sans+Caption:wght@700&display=swap');
+
+
+.top-heading{
+     font-family: 'Archivo Black', sans-serif;
+     color: white;
+     font-weight: 600;
+     background: #56c3be6b;
+     width: 50%;
+     position: relative;
+     top: 295px;
+     padding: 30px 15px;
+     text-transform: uppercase;
+}
+
+.heading-para-text{
+     font-weight: 600;
+     background: #56c3be6b;
+     padding: 30px 15px;
+     text-transform: uppercase;
+     color: white;
+     width: 70%;
+     position: relative;
+     top: 26px;
+}
