@@ -32,9 +32,9 @@ const ContactHeader = () => {
                          </div>
                          <div className="col-lg-3 col-md-4 col-12 text-center">
                               <div className="icon_wrapper">
-                              <i class="fab fa-linkedin i-coustom"></i>
-                              <i class="fab fa-facebook-square i-coustom"></i>
-                              <i class="fab fa-twitter-square i-coustom"></i>
+                              <i className="fab fa-linkedin i-coustom"></i>
+                              <i className="fab fa-facebook-square i-coustom"></i>
+                              <i className="fab fa-twitter-square i-coustom"></i>
                               </div>
                          </div>
                     </div>

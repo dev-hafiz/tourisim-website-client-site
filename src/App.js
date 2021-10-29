@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Header from './Pages/Shared/Header/Header';
 import ContactHeader from './Pages/Shared/ContactHeader/ContactHeader';
+import PlaceDetail from './Pages/Home/PlaceDetail/PlaceDetail';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
               </Route>
               <Route  path="/home">
                   <Home/>
+              </Route>
+              <Route path="/singlePlace/:detailId">
+                  <PlaceDetail/>
               </Route>
               <Route exact path="*">
                   <NotFound/>
