@@ -22,23 +22,23 @@ const BottomFooter = () => {
                          </div>
                          <div className="col-lg-3 col-md-6 col-12">
                               <h3 className="bottom-title">Quick Links</h3>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i> Famous Tour</p>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i> Tour Blogs</p>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i>Find Place</p>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i> Famous Tour</p>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i> Tour Blogs</p>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i>Find Place</p>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i>
                               Take Ticket</p>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i>
                               Winter Place</p>
                          </div>
                          <div className="col-lg-3 col-md-6 col-12">
                               <h3 className="bottom-title">Important Links</h3>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i>
                               Destination</p>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i>
                               Get In Touch</p>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i>
                               Who We Are</p>
-                              <p className="connect-link"><i class="fas fa-arrow-right"></i>
+                              <p className="connect-link"><i className="fas fa-arrow-right"></i>
                               Contact Us</p>
                          </div>
                          <div className="col-lg-3 col-md-6 col-12">

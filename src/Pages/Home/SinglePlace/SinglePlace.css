@@ -2,19 +2,16 @@
 
 
 
-
-#container{
+#container {
 	box-shadow: 0 15px 30px 1px grey;
 	background: rgba(255, 255, 255, 0.90);
 	text-align: center;
 	border-radius: 5px;
 	overflow: hidden;
 	margin: 5em auto;
-	height: 300px;
-	width: 500px;
-  
-	
-}
+	height: 279px;
+	width: 492px;
+ }
 
 
 

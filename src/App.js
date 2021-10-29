@@ -11,6 +11,8 @@ import AuthProvider from './context/AuthProvider/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import MyAllBooking from './Pages/Home/MyAllBooking/MyAllBooking';
 import BottomFooter from './Pages/Shared/Footer/BottomFooter';
+import AboutServices from './Pages/Home/AboutServices/AboutServices';
+import AddPlace from './Pages/Home/AddPlace/AddPlace';
 
 function App() {
   return (
@@ -35,6 +37,12 @@ function App() {
               <PrivateRoute path="/myAllBookinng">
                 <MyAllBooking/>
               </PrivateRoute>
+              <Route path="/aboutServices">
+                <AboutServices/>
+              </Route>
+              <Route path="/addPlace">
+                <AddPlace/>
+              </Route>
               <Route exact path="*">
                   <NotFound/>
               </Route>
