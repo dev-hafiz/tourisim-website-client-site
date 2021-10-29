@@ -6,10 +6,13 @@ import NotFound from './Pages/NotFound/NotFound';
 import Header from './Pages/Shared/Header/Header';
 import ContactHeader from './Pages/Shared/ContactHeader/ContactHeader';
 import PlaceDetail from './Pages/Home/PlaceDetail/PlaceDetail';
+import Login from './Pages/Home/Login/Login/Login';
+import AuthProvider from './context/AuthProvider/AuthProvider';
 
 function App() {
   return (
     <div className="">
+      <AuthProvider>
       <Router>
           <ContactHeader/>
           <Header/>
@@ -23,11 +26,15 @@ function App() {
               <Route path="/singlePlace/:detailId">
                   <PlaceDetail/>
               </Route>
+              <Route path="/login">
+                <Login/>
+              </Route>
               <Route exact path="*">
                   <NotFound/>
               </Route>
           </Switch>
       </Router>
+      </AuthProvider>
     </div>
   );
 }

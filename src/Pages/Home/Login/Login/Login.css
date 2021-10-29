@@ -1,0 +1,44 @@
+.login-warpper{
+     text-align: center;
+     width: 70%;
+     margin: 0 auto;
+}
+
+.login-box {
+     border: 1px solid #d1d1d1;
+     padding-top: 66px;
+     border-radius: 3px;
+     box-shadow: 10px 10px 10px gainsboro;
+ }
+
+ h3.login-text {
+     font-family: 'Archivo Black', sans-serif;
+     color: #4B4A4A;
+     font-size: 30px;
+     margin-top: 30px;
+     margin-bottom: 80px;
+ }
+ .google-area {
+      
+     margin: 20px 0;
+     
+     padding: 8px 20px;
+     border-radius: 50px;
+     margin-bottom: 150px;
+ }
+ img.img-fluid.img-icon {
+    position: relative;
+    left: 48px;
+    top: 2px;
+ }
+
+ button.google-btn {
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 56px;
+    background: #eee;
+    outline: none;
+    border-radius: 25px;
+}
+

@@ -3,3 +3,8 @@
      font-size: 16px;
      font-weight: 600;
 }
+
+.log-out-btn{
+     background: none;
+     border: 1px #eee solid;
+}
