@@ -1,0 +1,54 @@
+import React from 'react';
+import './TourGuiders.css';
+
+
+const TourGuiders = () => {
+     return (
+          <div>
+               <div className="container my-5">
+                 <h1 className="guider-heading">Meet Our Awesome Travel Guide</h1>
+                    <div className="row">
+                         <div className="col-lg-2 mx-5 col-md-6 col-12">
+                             <div className="guider-img-box">
+                                  <img className="img-fluid" src="https://i.ibb.co/JyKgm49/guider1.jpg" alt="" />
+                                  <div className="guider-des">
+                                       <h4 className="name">SimonD'Costa</h4>
+                                       <p className="expart"> -Mountaineering Guide-</p>
+                                  </div>
+                             </div> 
+                         </div>
+                         <div className="col-lg-2 mx-5  col-md-6 col-12">
+                         <div className="guider-img-box">
+                                  <img className="img-fluid" src="https://i.ibb.co/5Y0Pj6C/guider3.jpg" alt="" />
+                                  <div className="guider-des">
+                                       <h4 className="name">Henry Carter</h4>
+                                       <p className="expart"> -Mountaineering Guide-</p>
+                                  </div>
+                             </div> 
+                         </div>
+                         <div className="col-lg-2 mx-5  col-md-6 col-12">
+                         <div className="guider-img-box">
+                                  <img className="img-fluid" src="https://i.ibb.co/2tttpvt/guider4.jpg" alt="" />
+                                  <div className="guider-des">
+                                       <h4 className="name">Jennifer Andy</h4>
+                                       <p className="expart"> -Mountaineering Guide-</p>
+                                  </div>
+                             </div> 
+                         </div>
+                         <div className="col-lg-2 mx-4 col-md-6 col-12">
+                         <div className="guider-img-box">
+                                  <img className="img-fluid" src="https://i.ibb.co/JyKgm49/guider1.jpg" alt="" />
+                                  <div className="guider-des">
+                                       <h4 className="name">Jane Ronan</h4>
+                                       <p className="expart"> -Mountaineering Guide-</p>
+                                  </div>
+                             </div> 
+                         </div>
+                         
+                    </div>
+               </div>
+          </div>
+     );
+};
+
+export default TourGuiders;

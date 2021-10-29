@@ -1,0 +1,13 @@
+h2.total-text {
+     font-family: 'Bebas Neue', cursive;
+     margin-top: 80px;
+     padding-bottom: 60px;
+     padding-left: 12px;
+     border-bottom: 1px solid #E2CA86;
+     margin-bottom: 30px;
+ }
+
+ .icon-delete{
+      font-size: 20px;
+      color: red;
+ }

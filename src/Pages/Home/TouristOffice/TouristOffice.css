@@ -1,0 +1,20 @@
+.office-title{
+     text-align: center;
+     margin-top: 80px;
+     margin-bottom: 50px;
+     color: #4B4A4A;
+     font-family: 'Archivo Black', sans-serif;
+     text-transform: uppercase;
+     text-shadow: 6px 6px 3px gainsboro;
+     font-family: 'Bebas Neue', cursive;
+}
+
+.office-logo-sec{
+     text-align: center;
+}
+
+.office-logo-wrapper{
+     margin-bottom: 80px;
+     background: #b5e4dcb0;
+     padding: 60px 0;
+}

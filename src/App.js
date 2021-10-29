@@ -9,6 +9,7 @@ import PlaceDetail from './Pages/Home/PlaceDetail/PlaceDetail';
 import Login from './Pages/Home/Login/Login/Login';
 import AuthProvider from './context/AuthProvider/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
+import MyAllBooking from './Pages/Home/MyAllBooking/MyAllBooking';
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
               <Route path="/login">
                 <Login/>
               </Route>
+              <PrivateRoute path="/myAllBookinng">
+                <MyAllBooking/>
+              </PrivateRoute>
               <Route exact path="*">
                   <NotFound/>
               </Route>
