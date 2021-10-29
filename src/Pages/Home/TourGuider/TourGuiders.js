@@ -4,7 +4,7 @@ import './TourGuiders.css';
 
 const TourGuiders = () => {
      return (
-          <div>
+          <div className="guider-sec">
                <div className="container my-5">
                  <h1 className="guider-heading">Meet Our Awesome Travel Guide</h1>
                     <div className="row">

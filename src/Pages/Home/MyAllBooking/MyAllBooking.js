@@ -20,19 +20,24 @@ const MyAllBooking = () => {
 
      //Delete Method
      const handleDelete = id =>{
-       const url = `http://localhost:5000/myBooking/${id}`
-       fetch(url, {
-            method:'DELETE'
-       })
-       .then(res => res.json())
-       .then(data =>{
-            if (data.deletedCount) {
-                 alert('Delete Successfully')
-                 const remainig = bookingPalces.filter(place => place._id !== id);
-                 setBookingPlaces(remainig)
-
-            }
-       })
+          const procced = window.confirm("Are you sure to delete your Place")
+          if (procced) {
+               
+               const url = `http://localhost:5000/myBooking/${id}`
+               fetch(url, {
+                    method:'DELETE'
+               })
+               .then(res => res.json())
+               .then(data =>{
+                    if (data.deletedCount) {
+                         alert('Delete Successfully')
+                         const remainig = bookingPalces.filter(place => place._id !== id);
+                         setBookingPlaces(remainig)
+        
+                    }
+               })
+          }
+      
      }
 
      return (

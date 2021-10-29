@@ -10,6 +10,7 @@ import Login from './Pages/Home/Login/Login/Login';
 import AuthProvider from './context/AuthProvider/AuthProvider';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import MyAllBooking from './Pages/Home/MyAllBooking/MyAllBooking';
+import BottomFooter from './Pages/Shared/Footer/BottomFooter';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
                   <NotFound/>
               </Route>
           </Switch>
+          <BottomFooter/>
       </Router>
       </AuthProvider>
     </div>
