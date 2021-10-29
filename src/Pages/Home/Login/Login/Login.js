@@ -8,18 +8,22 @@ import useAuth from '../../../../hooks/useAuth';
 
 const Login = () => {
 
+     const {googleSignInUser, setUser, setIsLoding} = useAuth();
+
      const location = useLocation();
      const history = useHistory();
      const redirect_uri = location.state?.from || '/home'
 
-     const {googleSignInUser, setUser} = useAuth();
+    
 
      const handlegoogleLogin = () =>{
+          setIsLoding(true)
           googleSignInUser()
           .then(result =>{
                setUser(result.user);
                history.push(redirect_uri)
           })
+          .finally(()=> setIsLoding(false))
      }
 
      return (
