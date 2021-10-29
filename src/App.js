@@ -8,6 +8,7 @@ import ContactHeader from './Pages/Shared/ContactHeader/ContactHeader';
 import PlaceDetail from './Pages/Home/PlaceDetail/PlaceDetail';
 import Login from './Pages/Home/Login/Login/Login';
 import AuthProvider from './context/AuthProvider/AuthProvider';
+import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -23,9 +24,9 @@ function App() {
               <Route  path="/home">
                   <Home/>
               </Route>
-              <Route path="/singlePlace/:detailId">
+              <PrivateRoute path="/singlePlace/:detailId">
                   <PlaceDetail/>
-              </Route>
+              </PrivateRoute>
               <Route path="/login">
                 <Login/>
               </Route>
