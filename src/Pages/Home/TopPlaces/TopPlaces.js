@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { Spinner } from 'react-bootstrap';
 import SinglePlace from '../SinglePlace/SinglePlace';
 import './TopPlaces.css';
 
 const TopPlaces = () => {
      //Load data on state
      const [places, setPlaces] = useState([])
+     
      useEffect( ()=>{
           fetch('http://localhost:5000/places')
           .then( res => res.json())
@@ -12,6 +14,9 @@ const TopPlaces = () => {
      },[])
      return (
           <div>
+             { places.length === 0 ?  
+               <Spinner animation="border" />
+              :
                <div className="container">
                  <h2 className="tourist-title">World Tourist Places </h2>
                  
@@ -22,7 +27,7 @@ const TopPlaces = () => {
                           key={place._id}/>)
                       }
                  </div>
-               </div>
+               </div>}
           </div>
      );
 };

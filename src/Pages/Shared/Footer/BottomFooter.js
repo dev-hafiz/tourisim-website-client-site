@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const BottomFooter = () => {
      return (
-          <div style={{ backgroundImage: `url(${footerBg})`, height:"100vh", backgroundPosition: "center center", paddingTop: "160px"}}>
+          <div style={{ backgroundImage: `url(${footerBg})`, height:"100vh", backgroundPosition: "center center", paddingTop: "160px", backgroundSize : "cover"}}>
               
               <div className="container">
                     <div className="row bottom-footer-wrapper">
