@@ -12,7 +12,7 @@ const MyAllBooking = () => {
      const [bookingPalces, setBookingPlaces] = useState([])
      
      useEffect( ()=>{
-          fetch(`http://localhost:5000/myAllBooking/${user?.email}`)
+          fetch(`https://mysterious-crag-17266.herokuapp.com/myAllBooking/${user?.email}`)
           .then(res => res.json())
           .then(data => setBookingPlaces(data))
      },[user.email])
@@ -23,7 +23,7 @@ const MyAllBooking = () => {
           const procced = window.confirm("Are you sure to delete your Place")
           if (procced) {
                
-               const url = `http://localhost:5000/myBooking/${id}`
+               const url = `https://mysterious-crag-17266.herokuapp.com/myBooking/${id}`
                fetch(url, {
                     method:'DELETE'
                })

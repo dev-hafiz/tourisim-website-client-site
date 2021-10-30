@@ -13,7 +13,7 @@ const PlaceDetail = () => {
      //loaddata with id
      const [place, setPlace] = useState({})
      useEffect( ()=>{
-          fetch(`http://localhost:5000/places/${detailId}`)
+          fetch(`https://mysterious-crag-17266.herokuapp.com/places/${detailId}`)
           .then(res => res.json())
           .then(data => setPlace(data))
      },[])
@@ -22,7 +22,7 @@ const PlaceDetail = () => {
      const { register, handleSubmit, reset } = useForm();
      const onSubmit = data => {
           data.email = user?.email;
-          fetch("http://localhost:5000/placeBooking", {
+          fetch("https://mysterious-crag-17266.herokuapp.com/placeBooking", {
                method:"POST",
                headers:{
                     "content-type": "application/json"

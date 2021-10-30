@@ -7,7 +7,7 @@ const AddPlace = () => {
      const { register, handleSubmit , reset} = useForm();
      const onSubmit = data =>{
           console.log(data)
-          fetch(`http://localhost:5000/places`,{
+          fetch(`https://mysterious-crag-17266.herokuapp.com/places`,{
                method:"POST",
                headers:{
                     "content-type" : "application/json"
