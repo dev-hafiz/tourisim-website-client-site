@@ -4,7 +4,7 @@ import './TouristOffice.css';
 const TouristOffice = () => {
      return (
           <div className="office-logo-sec">
-               <h3 className="office-title">More Office</h3>
+               <h1 className="office-title">More Office</h1>
               <div className="container">
               <div className="row office-logo-wrapper">
                     <div className="col-lg-1 ms-3 col-md-4 col-6">

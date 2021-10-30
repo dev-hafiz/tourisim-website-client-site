@@ -49,11 +49,14 @@
      margin-top: 150px;
  }
  
+ .copy-footer p {
+    margin-top: 36px;
+}
  .copy-footer {
       margin-top: 30px;
      background: #1a1a1b;
      text-align: center;
-     padding: 40px;
+     padding: 20px;
      color: #80808078;
  }
  

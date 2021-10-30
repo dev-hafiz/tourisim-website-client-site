@@ -1,11 +1,15 @@
 import React from 'react';
 import './AboutServices.css';
 import servicesBanner from '../../../about/aboutService.png';
+import CeoAbout from '../CeoAbout/CeoAbout';
 
 const AboutServices = () => {
+    
      return (
           <div>
                <div className="container">
+                  <CeoAbout/>  
+
                <h3 className="service-heading">Every Time We Provide Best Service</h3>
                     <div className="row services-sec">
                          <div className="col-lg-6 cl-md-6">

@@ -1,9 +1,11 @@
 
 h1.guider-heading {
      text-align: center;
-     margin-top: 80px;
-     margin-bottom: 80px;
+     margin-top:80px;
+     margin-bottom: 60px;
      font-family: 'Bebas Neue', cursive;
+     color: #4B4A4A;
+     letter-spacing: 2px;
  }
 .tour-text-wrapper {
      margin-top: 60px;

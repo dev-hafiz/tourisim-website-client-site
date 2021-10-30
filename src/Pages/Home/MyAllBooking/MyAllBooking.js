@@ -41,7 +41,7 @@ const MyAllBooking = () => {
      }
 
      return (
-          <div>
+          <div className="my-Booking">
                <div className="container my-5">
                  <h2 className="total-text">My Total Booking Place -{bookingPalces.length}</h2>
 

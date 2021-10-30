@@ -43,7 +43,7 @@ const BottomFooter = () => {
                          </div>
                          <div className="col-lg-3 col-md-6 col-12">
                               <div className="input-bottom">
-                                   <input placeholder="enter your mail" type="email" name="" id="" />
+                                   <input placeholder="enter your email" type="email" name="" id="" />
                                    <input placeholder="your report" type="text" name="" id="" />
                                    
                                    <input className="submitBtn" type="submit" value="Send Mail" />

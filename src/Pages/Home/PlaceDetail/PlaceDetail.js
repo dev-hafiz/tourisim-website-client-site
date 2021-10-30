@@ -45,7 +45,7 @@ const PlaceDetail = () => {
               <div className="container placeBooking-tour">
                   <div>
                   <h2 className="place-heading">Place Your Booking </h2>
-                   <p className="text-center">If you want to Place Booking Please click on 3 input filed and then Click Place Booking Button</p>
+                   <p className="text-center">If you want to Place Booking <b>Please click on 3 input filed</b> and then Click Place Booking Button</p>
                   </div>
                    <div className="booking-form">
                   
