@@ -5,27 +5,25 @@
 #container {
 	box-shadow: 0 15px 30px 1px grey;
 	background: rgba(255, 255, 255, 0.90);
-	text-align: center;
+	text-align: start;
 	border-radius: 5px;
+	height: 300px;
+	margin-bottom: 80px;
 	overflow: hidden;
-	margin: 5em auto;
-	height: 279px;
-	width: 492px;
  }
 
 
-
-.product-details {
+ .product-details {
 	position: relative;
 	text-align: left;
 	overflow: hidden;
-	padding: 30px;
+	padding-top: 24px;
+	padding-left: 37px;
 	height: 100%;
 	float: left;
 	width: 50%;
-     top: 30px;
-
-}
+	top: 30px;
+ }
 
 #container .product-details h1{
 	font-family: 'Bebas Neue', cursive;

@@ -22,9 +22,10 @@ const Header = () => {
           alt=""
           />
           </Navbar.Brand>
-          <Nav className="ms-auto">
-               
-               <Nav.Link as={Link} className="mune-link" to="/home">Home</Nav.Link>
+          <Navbar.Toggle />
+          <Navbar.Collapse className="justify-content-end">
+                    
+          <Nav.Link as={Link} className="mune-link" to="/home">Home</Nav.Link>
                <Nav.Link as={Link} className="mune-link" to="/addPlace">Add Place</Nav.Link>
                <Nav.Link as={Link} className="mune-link" to="/myAllBookinng">My All Booking</Nav.Link>
                <Nav.Link as={Link} className="mune-link" to="/aboutServices">About Services</Nav.Link>
@@ -32,7 +33,8 @@ const Header = () => {
                     user.email ? <button onClick={handleSignOut} className="log-out-btn"> Log-Out</button>
                     :
                     <Nav.Link as={Link} className="mune-link log-out-btn"  to="/login">Google login</Nav.Link>}
-          </Nav>
+          </Navbar.Collapse>
+         
           </Container>
           </Navbar>
      );
